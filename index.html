@@ -32,7 +32,7 @@
         }
 
         .container {
-            visibility: block;
+            display: none;
             padding-top: 8px;
         }
 
@@ -145,13 +145,11 @@
             margin-top: 40vh;
         }
 
-        @media screen and (max-width: 425px) {
-            .container {
-                display: none;
-            }
-        }
-
         @media screen and (min-width: 768px) {
+            .container {
+                display: block;
+            }
+
             .hidden-phone {
                 display: none;
             }
